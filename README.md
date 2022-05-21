@@ -2,6 +2,10 @@
 
 <img src="https://img.shields.io/npm/dm/react-resize-detector?style=flat-square"> <img src="https://badgen.net/bundlephobia/minzip/react-resize-detector?style=flat-square"> <img src="https://badgen.net/bundlephobia/tree-shaking/react-resize-detector?style=flat-square">
 
+## Overview
+
+An enhanced version of [maslianok/react-resize-detector](https://github.com/maslianok/react-resize-detector) which is configured to work with React v16.8.0 and above.
+
 #### [Live demo](http://maslianok.github.io/react-resize-detector/)
 
 Nowadays browsers support element resize handling natively using [ResizeObservers](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver). The library uses these observers to help you handle element resizes in React.
