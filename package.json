@@ -1,5 +1,5 @@
 {
-  "name": "react-resize-detector",
+  "name": "react-resize-detector-enhanced",
   "description": "React resize detector",
   "main": "build/index.js",
   "module": "build/index.esm.js",
@@ -9,7 +9,7 @@
   "types": "build/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maslianok/react-resize-detector.git"
+    "url": "git+https://github.com/nickiesong/react-resize-detector-enhanced.git"
   },
   "scripts": {
     "build": "rollup -c",
@@ -46,18 +46,14 @@
     "typescript": "^4.5.4"
   },
   "peerDependencies": {
-    "react": "^16.0.0 || ^17.0.0",
-    "react-dom": "^16.0.0 || ^17.0.0"
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
   },
-  "author": "Vitalii Maslianok <maslianok@gmail.com> (https://github.com/maslianok)",
+  "author": "Nicholas Song <nikol.song.dev@gmail.com> (https://github.com/nickiesong)",
   "version": "7.0.0",
-  "bugs": {
-    "url": "https://github.com/maslianok/react-resize-detector/issues"
-  },
   "directories": {
     "example": "example"
   },
-  "homepage": "https://github.com/maslianok/react-resize-detector",
   "keywords": [
     "react",
     "resize",
@@ -66,16 +62,5 @@
     "observer"
   ],
   "license": "MIT",
-  "sideEffects": false,
-  "maintainers": [
-    {
-      "name": "Vitalii Maslianok",
-      "email": "maslianok@gmail.com"
-    }
-  ],
-  "contributors": [
-    {
-      "name": "James J. Womack (@james_womack)"
-    }
-  ]
+  "sideEffects": false
 }
