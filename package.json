@@ -50,7 +50,7 @@
     "react-dom": ">=16.8.0"
   },
   "author": "Nicholas Song <nikol.song.dev@gmail.com> (https://github.com/nickiesong)",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "directories": {
     "example": "example"
   },
